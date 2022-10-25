@@ -1,1 +1,95 @@
 @charset "utf-8";
+
+/* ベース */
+body {
+    color: #8888;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    letter-spacing: 0;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.l-inner {
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.l-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 文字 */
+.l-text-title {
+    color: #202124;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.l-text-red {
+    color: #FA6980;
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.l-text-sub {
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.l-header-small {
+    font-size: 12px;
+}
+
+.l-footer {
+    font-size: 12px;
+
+}
+
+/* 幅 */
+.l-padding-time {
+    padding-right: 10px;
+    padding-bottom: 60px;
+}
+
+.l-col2 {
+    width: 46%;
+}
+
+.card {
+    width: 380px;
+}
+
+
+.l-margin-card {
+    margin-top: 60px;
+}
+
+/* 並べ替え */
+.l-time {
+    display: flex;
+    padding-top: 20px;
+}
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
