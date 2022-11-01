@@ -1,87 +1,92 @@
-<!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>newslly top</title>
+    <title>Newslly-top</title>
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <h1><img src="./images/img_logo.png" alt=""></h1>
+    <header class="l-header">
+        <div class="l-inner">
+            <h1><img class="l-mx-auto" src="./images/img_logo.png" alt="Roysha"></h1>
+        </div>
     </header>
 
-    <main class="l-inner">
-        <h2 class="l-text-title">MORE NEWS</h2>
+    <main class="l-main">
+        <section class="l-py6">
+            <div class="l-inner">
+                <h2 class="heading-main">MORE NEWS</h2>
+                <div class="l-flex">
+                    <article class="unit l-col2 l-mb6">
+                        <p class="unit-catch">TRAVEL</p>
+                        <h3 class="unit-title">Subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Quis ipsum suspendisse ultrices gravida.</p>
+                        <p class="time">2m agp</p>
+                    </article>
+                    <article class="unit l-col2 l-mb6">
+                        <p class="unit-catch">TECHNOLOGY</p>
+                        <h3 class="unit-title">Subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Quis ipsum suspendisse ultrices gravida.</p>
+                        <p class="time">1h agp</p>
+                    </article>
+                    <article class="unit l-col2">
+                        <p class="unit-catch">PHOTO</p>
+                        <h3 class="unit-title">Subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Quis ipsum suspendisse ultrices gravida.</p>
+                        <p class="time">1d agp</p>
+                    </article>
+                    <article class="unit l-col2">
+                        <p class="unit-catch">VIDEO</p>
+                        <h3 class="unit-title">Subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Quis ipsum suspendisse ultrices gravida.</p>
+                        <p class="time">3d agp</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-        <div class="l-flex all">
-            <div class="card l-col2">
-                <p class="l-text-red">TRAVEL</p>
-                <h3 class="l-text-sub">Subtitle</h3>
-                <dl>
-                    <dd>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </dd>
-                    <div class="l-time">
-                        <img class="l-padding-time" src="./images/icon_time.png" alt="">
-                        <dt class="l-header-small">2m ago</dt>
-                    </div>
-                </dl>
+        <section class="l-py6 l-bg-gray">
+            <div class="l-inner">
+                <h2 class="heading-main">TRENDING</h2>
+                <div class="l-flex">
+                    <article class="card l-col2">
+                        <img class="card-img" src="./images/pic_trending01.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Dolore magna aliqua</h3>
+                            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a class="btn" href="#">READ MORE</a>
+                        </div>
+                    </article>
+                    <article class="card l-col2">
+                        <img class="card-img" src="./images/pic_trending02.png" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Morbi eleifend a libero</h3>
+                            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius
+                                mel id, ad has appareat.</p>
+                            <a class="btn" href="#">READ MORE</a>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="card l-col2">
-                <p class="l-text-red">TECHNOLOGY</p>
-                <h3 class="l-text-sub">Subtitle</h3>
-                <dl>
-                    <dd>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </dd>
-                    <div class="l-time">
-                        <img class="l-padding-time" src="./images/icon_time.png" alt="">
-                        <dt class="l-header-small">1h ago</dt>
-                    </div>
-                </dl>
-            </div>
-            <div class="card l-col2 l-margin-card">
-                <p class="l-text-red">PHOTO</p>
-                <h3 class="l-text-sub">Subtitle</h3>
-                <dl>
-                    <dd>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </dd>
-                    <div class="l-time">
-                        <img class="l-padding-time" src="./images/icon_time.png" alt="">
-                        <dt class="l-header-small">1d ago</dt>
-                    </div>
-                </dl>
-            </div>
-            <div class="card l-col2 l-margin-card">
-                <p class="l-text-red">VIDEO</p>
-                <h3 class="l-text-sub">Subtitle</h3>
-                <dl>
-                    <dd>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam
-                        detracto, vidit vituperatoribus duo id. Affert detraxit
-                        voluptatum vis eu, inermis eloquentiam.
-                    </dd>
-                    <div class="l-time">
-                        <img class="l-padding-time" src="./images/icon_time.png" alt="">
-                        <dt class="l-header-small">3d ago</dt>
-                    </div>
-                </dl>
-            </div>
-        </div>
-
-        <h2 class="l-text-title">TRENDING</h2>
+        </section>
     </main>
-
-    <footer>
-        <small>TRIDENT college All Rights Reserved.</small>
+    <footer class="l-footer l-bg-black">
+        <div class="l-inner">
+            <small>TRIDENT college All Rights Reserved.</small>
+        </div>
     </footer>
 </body>
 
